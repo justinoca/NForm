@@ -1,1 +1,25 @@
 # NForm
+- HTML pages that validate
+  - Our website has multiple pages that use HTML in order to structure its contents.
+- Cascading Style Sheets that validate
+  - Each of the pages utilize CSS in order to format how the various HTML elements are displayed. This helps our site look more professional and aesthetically pleasing.
+- JavaScript front end form verification
+  - Our website uses Javascript to process the results of a feedback form on our log out page. 
+- Dynamic HTML features
+  - Our website contains a slideshow on the front page, which displays various pictures that are relevant to the user, such as the weather, a map, etc. Furthermore, the user has the option to stop and start the slideshow when desired. 
+- PHP script to process form data
+  - Our website has multiple pages that utilize PHP in order to process form data from the user. This includes the home page, sign up page, log out, as well as the add task page. 
+- MySQL database back end
+  - Our website utilizes MySQL databases to store sensitive information such as all the variables related to adding a task such as date, time and the task itself. We also use MySQL databases to store usernames, and passwords.
+- PHP interface to the MySQL database
+  - Our project utilizes a MySQL database to store task items that the user has added to their daily schedule. We utilize a PHP interface to receive task input from the user and store it to the MySQL database. As well as to store username and password information.
+- Maintain state in transactions
+  - Our website maintains state in transactions by requiring the user to log in to add tasks to their schedule for the day. Once a user logs in, a cookie is created and allows them to add tasks as long as the cookie exists (1 hour).
+- Set and read cookies
+  - Our project sets a cookie when a user signs up/logs in. The cookie is read to determine whether to allow the user to add tasks to their schedule. We also display a custom welcome message for the user on the Home page after they have logged in.
+- Annotated links to other related web sites
+  - Our website contains a section in the home page with links to other related websites that are productivity related. The links offer the user additional resources to assist with organization and productivity.
+- Include AJAX application
+  - We utilize AJAX to check the username and password that the user enters with the existing data in the MySQL database. If a user attempts to register with data that is already in the database then the AJAX will prevent this duplication.
+- Include audio and / or video files
+  - The home and add page have an embedded audio file with relaxing music for the user to listen to as they use our website. 
