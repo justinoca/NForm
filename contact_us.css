@@ -1,0 +1,74 @@
+#about{
+    max-width: 800px;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    padding-top: 0px;
+    outline-style: solid;
+    outline-color: #158231;
+    outline-width: 12px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logo {
+  text-align: center;
+}
+
+h2{
+    color: #4a6952;
+    font-weight: 600;
+}
+
+name{
+    color: #3f5746;
+    font-weight: 600;
+}
+
+table {
+  width: 800px;
+}
+
+#footer
+{
+text-align: center;
+clear: both;
+margin: 0;
+padding: .5em;
+font-style: italic;
+
+border-top: 1px solid green;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #158231;
+  color: white;
+}
+
+figure img {
+    width: 10%;
+  }
